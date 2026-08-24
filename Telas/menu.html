@@ -9,7 +9,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <div class="d-flex justify-content-end p-3">
 
         <div class="dropdown me-3">
@@ -20,21 +20,21 @@
             <ul class="dropdown-menu dropdown-menu-dark">
                 <li><a class="dropdown-item active" href="categoria.html">Categorias</a></li>
                 <li><a class="dropdown-item" href="#">Clientes</a></li>
-                <li><a class="dropdown-item" href="#">Produtos</a></li>
-                <li><a class="dropdown-item" href="#">Produtos</a></li>
+                <li><a class="dropdown-item" href="produto.html">Produtos</a></li>
                 <li><a class="dropdown-item" href="#">Manutanção</a></li>
-                <li><a class="dropdown-item" href="#">Usuários</a></li>
+                <li><a class="dropdown-item" href="usuarios.html">Usuários</a></li>
             </ul>
         </div>
 
-        <button type="button" class="btn btn-danger">Sair</button>
+        <a href="login.html"><button type="button" class="btn btn-danger">Sair</button></a>
     </div>
 
-    <div class="position-relative">
-        <div style="width: 200px; height: 200px;" class="position-absolute top-50 start-50 translate-middle">
-            <img src="../Imagens/Logo.png" alt="LogoEmpresa" style="width: 500px;">
-        </div>
+
+
+    <div class="d-flex flex-grow-1 justify-content-center align-items-center">
+        <img src="../Imagens/Logo.png" alt="LogoEmpresa" style="max-width: 500px;">
     </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
